@@ -33,15 +33,18 @@ function showQuestion(){
     document.getElementById('answer_4').innerHTML = question['answer_4'];
 }
 
-function answer(selction){
+function answer(selection){
     let question = questions[currentQuestion];
-    console.log('selected answer is, ', selction);
-    let selectedQuestionNumber = selction.slice(-1);
+    console.log('selected answer is, ', selection);
+    let selectedQuestionNumber = selection.slice(-1);
     console.log('selectedQestionNumber is ', selectedQuestionNumber);
 
-    if (selectedQuestionNumber == question['right_answer']) {
-        console.log('Richtige Antwort!!!')
+    let idOfRightAnswer = `answer_3`;
+
+    if (selectedQuestionNumber == question['right_answer']) {        
+        document.getElementById(selection).parentNode.classList.add('bg-success');
     }else{
-        console.log('Falsche Antwort!!')
+        document.getElementById(selection).parentNode.classList.add('bg-danger');
+        document.getElementById(idOfRightAnswer).parentNode.classList.add('bg-success');
     }
 }
