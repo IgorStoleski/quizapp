@@ -36,3 +36,21 @@ body{
 .bg-success, .bg-danger{
     color: white;
 }
+
+.width-100{
+    width: 100%;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.headline-result{
+    font-size: 24px;
+}
+
+.button-center{
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+}
