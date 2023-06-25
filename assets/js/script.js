@@ -8,12 +8,36 @@ let questions = [
         "right_answer": 3,
     },
     {
-        "question": "In welchem Jahr wurde HTML erfunden",
+        "question": "In welchem Jahr wurde HTML erfunden?",
         "answer_1": 1988,
         "answer_2": 1989,
         "answer_3": 1990,
         "answer_4": 1991,
         "right_answer": 2,
+    },
+    {
+        "question": "Wie beginnt man in einem HTML-Dokument?",
+        "answer_1": "&lt;body&gt;",
+        "answer_2": "&lt;!DOCTYPE&gt;",
+        "answer_3": "&lt;!DOCTYPE html&gt;",
+        "answer_4": "&lt;HTML&gt;",
+        "right_answer": 3,
+    },
+    {
+        "question": "Was hilft einen um den Style von HTML-Dateien zu verbessern?",
+        "answer_1": 'Perl',
+        "answer_2": 'Javascript',
+        "answer_3": 'XHTML',
+        "answer_4": 'CSS',
+        "right_answer": 4,
+    },
+    {
+        "question": "Wie viele Tags beinhaltet das Grundgerüst von HTML?",
+        "answer_1": 3,
+        "answer_2": 4,
+        "answer_3": 5,
+        "answer_4": 8,
+        "right_answer": 3,
     },
 ];
 
